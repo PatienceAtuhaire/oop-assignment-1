@@ -12,7 +12,7 @@ env/
 # Environment files containing secrets
 .env
 .env.*
-
+example.py
 # Distribution / Packaging
 bin/
 build/
