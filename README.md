@@ -13,8 +13,9 @@ Install the dependencies from the repository root:
 python -m pip install -r requirements.txt
 ```
 
-Open `project1_population.ipynb`, `project2_microgrid.ipynb` and
-`project3_fishery.ipynb` in Jupyter and run all cells from top to bottom.
+Open `project1_population.ipynb`, `project2_microgrid.ipynb`,
+`project3_fishery.ipynb`, `project4_rainfall.ipynb` and `project5_taxi.ipynb`
+in Jupyter and run all cells from top to bottom.
 Reusable modules are in `src/`. Run the unit tests from the root with:
 
 ```bash
@@ -36,6 +37,12 @@ GitHub Actions runs the test suite for pushes and pull requests.
   bounded export-price paths and estimates revenue risk. Parameters and
   results are illustrative; see the fishery notebook for assumptions and
   limitations.
+- **Rainfall and crop suitability:** compares illustrative monthly rainfall
+  patterns, screens crop rainfall suitability, detects rainy-season peaks and
+  fetches NASA POWER historical data for a variability extension.
+- **Taxi-route planning:** compares route revenue, evaluates passenger
+  forecasters with walk-forward validation, solves a supply-demand equilibrium
+  and estimates buffered fleet sizes.
 
 ## AI-use declaration
 
